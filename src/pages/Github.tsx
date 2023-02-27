@@ -117,7 +117,7 @@ function GithubItem(props: {
       padding:50px 0px;
       border-radius:8px;
       &:hover{
-        background-image:linear-gradient(white,${themeColor});
+        background-image:linear-gradient(${themeColor},${themeColor});
       }
       `}
   >

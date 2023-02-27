@@ -21,7 +21,25 @@ const experience: ExperienceItem[] = [
     personalAchievement: '本人完成其中的项目管理部分开发，其中包括：还原UI设计，完成各个模块的增、删、改的功能，完成从excel读取数据库',
     tech: ['TypeScript', 'React', 'React-Query', 'Recoil', 'Grpc-Web'],
     link: 'https://meera-insight-v2.dev.meeraspace.com/thin-section'
-  }
+  },
+  // {
+  //   projectName: 'Meera-insight',
+  //   companyName: '四川塔极特科技有限公司',
+  //   time: '',
+  //   projectIntroduction: '该项目为Thin section等项目的官网。用来宣传石油勘探相关一系列应用（开发中），同时该项目还提供了服务包的购买功能（目前仅有Thin section中服务的购买）。',
+  //   personalAchievement: '该项目为本人一人开发，使用了本公司二次封装（实际就是webpack）的构建工具来创建的。',
+  //   tech: ['TypeScript', 'React', 'React-Query', 'mui', '@emotion/css', 'Grpc-Web'],
+  //   link: 'https://meera-insight.dev.meeraspace.com/'
+  // },
+  {
+    projectName: 'Business Intelligence',
+    companyName: '四川塔极特科技有限公司',
+    time: '',
+    projectIntroduction: '该项目为一个数据可视化项目，提供了丰富的图表种类。',
+    personalAchievement: '本人成就为：修复Bug， 完成DSC(Data Source Config)模块的开发，DSC 用来对数据源做一些预处理，以便更好的进行可视化。这些处理包括：过滤、别名、分组、表达式等。',
+    tech: ['TypeScript', 'React', 'mui', 'react-hook-form', 'axios'],
+    link: 'https://bi.work.qiyili.cn/dashboard'
+  },
 ]
 
 export function Experience() {
