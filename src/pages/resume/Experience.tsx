@@ -38,7 +38,7 @@ const experience: ExperienceItem[] = [
     projectIntroduction: '该项目为一个数据可视化项目，提供了丰富的图表种类。',
     personalAchievement: '本人成就为：修复Bug， 完成DSC(Data Source Config)模块的开发，DSC 用来对数据源做一些预处理，以便更好的进行可视化。这些处理包括：过滤、别名、分组、表达式等。',
     tech: ['TypeScript', 'React', 'mui', 'react-hook-form', 'axios'],
-    link: 'https://bi.work.qiyili.cn/dashboard'
+    link: 'https://bi.target.fluxble.com'
   },
 ]
 
